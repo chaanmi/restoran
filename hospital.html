@@ -1,0 +1,37 @@
+<!doctype html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style1.css">
+        <title>Электронная регистрация</title>
+    </head>
+    <body>  
+        <h1 class="h1">Поликлиника №4</h1>
+        <div class="block">
+        <div class="box1">новости</div>
+         <div class="box2">о нас</div>
+         <div class="box3">вакансии</div>
+         </div>   
+        <h2 class="h2">регистрация</h2>
+        <form class="form1" action="" method="post">
+        <label for="name">выберите врача</label>
+        <select class="select" name="doctor">
+        <option>лор</option>
+        <option>хирург</option>
+        <option>педиатор</option>
+        <option>стоматолог</option>
+        </select>
+        </form>   
+        <form class="form2" action="" method="post" >
+        <label for="pol1">выберите <span class="span">пол: мужской</span></label>    
+        <input id="pol1" name="radio" type="radio">
+        <label for="pol2">женский</label>
+        <input id="pol2" name="radio" type="radio">
+        </form>
+        <form class="form2" action="" method="post" >
+        <label for="age">введите возраст</label>
+        <input type="text" id="age">
+        </form>
+        <button class="block1" type="submit">отправить</button>
+    </body>
+</html>
